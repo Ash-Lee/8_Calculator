@@ -1,19 +1,19 @@
 /* 8_Calculator - CSS */
 
 html, body {
-	height: 100%;
-	width: 100%;
-	font-size: 16px;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
 }
 
 body {
-	background-color: #FFF;
+    background-color: #FFF;
 }
 
 #page {
-	margin: 0 auto;
-	width: auto;
-	overflow: auto;
+    margin: 0 auto;
+    width: auto;
+    overflow: auto;
 }
 
 
@@ -45,8 +45,8 @@ body {
 }
 
 .button:hover {
-	color: #F6F6F6;
-	background-color: #605B56;
+    color: #F6F6F6;
+    background-color: #605B56;
 }
 
 .clearfix:before,
@@ -65,17 +65,17 @@ body {
   /* Header */
 /*========================================*/
 header {
-	width: 600px;
-	margin: 10px auto 0;
-	border-radius: 5px;
-	background-color: #F0F0F0;
-	padding: 10px;
+    width: 600px;
+    margin: 10px auto 0;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+    padding: 10px;
 }
 
 header h1 {
-	text-align: center;
-	font-size: 60px;
-	font-family: 'Fredericka the Great';
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Fredericka the Great', sans-serif;
 }
 
 
@@ -83,65 +83,65 @@ header h1 {
   /* .calculator */
 /*========================================*/
 .calculator {
-	margin: 10px auto 0;
-	padding: 20px 0;
-	border-radius: 5px;
-	clear: both;
-	width: 600px;
-	background-color: #F0F0F0;
+    margin: 10px auto 0;
+    padding: 20px 0;
+    border-radius: 5px;
+    clear: both;
+    width: 600px;
+    background-color: #F0F0F0;
 }
 
 .screen {
-	width: 500px;
-	height: 60px;
-	margin: 0 auto 10px;
-	border-radius: 5px;
-	text-align: right;
-	line-height: 60px;
-	vertical-align: middle;
-	padding: 0 10px;
-	background-color: #FFF;
-	box-shadow: 0 3px 8px -1px rgba(0,0,0,0.2);
-	overflow: auto;
+    width: 500px;
+    height: 60px;
+    margin: 0 auto 10px;
+    border-radius: 5px;
+    text-align: right;
+    line-height: 60px;
+    vertical-align: middle;
+    padding: 0 10px;
+    background-color: #FFF;
+    box-shadow: 0 3px 8px -1px rgba(0,0,0,0.2);
+    overflow: auto;
 }
 
 .keypad, .operations {
-	float: left;
-	background-color: #FFF;
-	border-radius: 5px;
-	box-shadow: 0 3px 8px -1px rgba(0,0,0,0.2);
+    float: left;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px -1px rgba(0,0,0,0.2);
 }
 
 /* .keypad */
 .keypad {
-	width: 167px;
-	margin-left: 177px;
-	margin-right: 10px;
+    width: 167px;
+    margin-left: 177px;
+    margin-right: 10px;
 }
 
 .keypad div {
-	float: left;
+    float: left;
 }
 
 .equals {
-	margin-bottom: 10px;
-	background-color: lightgrey;
+    margin-bottom: 10px;
+    background-color: lightgrey;
 }
 
 .equals:hover {
-	background-color: #605B56;
+    background-color: #605B56;
 }
 
 /* .operations */
 .operations {
-	margin-right: 187px;
+    margin-right: 187px;
 }
 
 .operations div {
-	margin-bottom: 20px;
-	background-color: lightgrey;
+    margin-bottom: 20px;
+    background-color: lightgrey;
 }
 
 .operations div:last-of-type {
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 }
